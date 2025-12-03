@@ -1,18 +1,14 @@
 # AI Travel Planner 🌍✈️
 
-A comprehensive full-stack travel planning system powered by AI agents, MCP tools, and real-time data integration. Creates personalized travel itineraries with flights, hotels, budgets, attractions, and cultural tips.
+A comprehensive full-stack travel planning system powered by AI agents, tools, and real-time data integration. Creates personalized travel itineraries with flights, hotels, budgets, attractions, and cultural tips.
 
 ## 🎥 Demo
 
 Watch the AI Travel Planner in action:
 
-<div align="center">
-  <video src="travel_agent.mp4" width="800" controls>
-    Your browser does not support the video tag.
-  </video>
-</div>
 
-> **Note**: GitHub supports video playback directly in README. If it doesn't render, [click here to view the video](./travel_agent.mp4).
+https://github.com/user-attachments/assets/e072f646-2ee6-4dbb-920d-7a3e9e91b11b
+
 
 ## 🌟 Features
 
@@ -567,20 +563,3 @@ agent = Agent(
 - Implement rate limiting in production
 - Validate all user inputs
 - Sanitize markdown output
-
-
-## 📄 License
-
-MIT License - see LICENSE file for details
-
-## 🙏 Acknowledgments
-
-- **CrewAI** - Multi-agent orchestration framework
-- **OpenRouter** - Unified LLM API gateway
-- **Amadeus** - Comprehensive travel data APIs
-- **Google Places** - Rich POI and attraction data
-- **FastAPI** - High-performance Python web framework
-- **Next.js** - React framework for production
-- **Vercel** - Frontend hosting and deployment
-
----
