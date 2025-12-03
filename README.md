@@ -48,22 +48,22 @@ https://github.com/user-attachments/assets/e072f646-2ee6-4dbb-920d-7a3e9e91b11b
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                  Next.js Frontend (Port 3000)                │
+│                  Next.js Frontend (Port 3000)               │
 │  Search Form → Results Display → Itinerary Viewer           │
 └───────────────────────┬─────────────────────────────────────┘
                         │ HTTP REST API
                         ▼
 ┌─────────────────────────────────────────────────────────────┐
-│              FastAPI Backend (Port 8000)                     │
+│              FastAPI Backend (Port 8000)                    │
 │  Routes: /plan, /health, /destinations/popular, /docs       │
 └───────────────────────┬─────────────────────────────────────┘
                         │
                         ▼
 ┌─────────────────────────────────────────────────────────────┐
-│           TravelPlanningOrchestrator                         │
-│  • Coordinates 7 AI agents                                   │
-│  • Manages execution flow                                    │
-│  • Aggregates results                                        │
+│           TravelPlanningOrchestrator                        │
+│  • Coordinates 7 AI agents                                  │
+│  • Manages execution flow                                   │
+│  • Aggregates results                                       │
 └───────────────────────┬─────────────────────────────────────┘
                         │
         ┌───────────────┴────────────────┐
