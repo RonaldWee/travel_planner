@@ -1,0 +1,17 @@
+
+> travel-planner-frontend@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.33
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1754ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1917ms (675 modules)
+ GET / 200 in 2311ms
+ ✓ Compiled in 349ms (306 modules)
+ ○ Compiling /plan ...
+ ✓ Compiled /plan in 1825ms (1236 modules)
+[?25h

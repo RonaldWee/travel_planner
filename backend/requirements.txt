@@ -1,0 +1,31 @@
+# Simplified requirements - install core packages and let pip resolve dependencies
+# Use this if requirements.txt has version conflicts
+
+# Core framework
+fastapi>=0.115.0,<0.116.0
+uvicorn[standard]>=0.32.0,<0.33.0
+
+# Data models
+pydantic>=2.9.0,<3.0.0
+
+# LangChain - install together for compatibility
+langchain>=0.3.0,<0.4.0
+langchain-core>=0.3.0,<0.4.0
+langchain-openai>=0.2.0,<0.3.0
+
+# CrewAI - install after LangChain
+crewai>=0.80.0,<0.81.0
+crewai-tools>=0.17.0,<0.18.0
+
+# MCP
+mcp>=1.22.0,<2.0.0
+
+# HTTP
+httpx>=0.27.0,<0.28.0
+
+# Environment
+python-dotenv>=1.0.0,<2.0.0
+
+# Utilities
+python-dateutil>=2.8.2
+python-json-logger>=2.0.7
